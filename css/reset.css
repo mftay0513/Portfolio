@@ -1,0 +1,320 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*:before,*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "游ゴシック",YuGothic, 'Hiragino Kaku Gothic ProN',Meiryo;
+}
+
+.link-back {
+  margin: 30px auto 0;
+  text-align: center;
+  font-size: 14px;
+}
+.link-back a {
+  text-decoration: underline;
+}
+.link-back a:hover {
+  text-decoration: none;
+}
+
+.bg-black .link-back a {
+  color: #fff;
+}
+
+.ttl-notice,
+.ttl-demo {
+  max-width: 768px;
+  width: 100%;
+  line-height: 1.5;
+  margin: 50px auto 20px;
+  font-weight: bold;
+}
+.ttl-notice {
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.bg-black .ad-02_ttl,
+.bg-black .link-lang a,
+.bg-black .ttl-notice,
+.bg-black .ttl-demo {
+  color: #fff;
+}
+
+.demo-ad-01 {
+  margin: 0 0 50px;
+  text-align: center;
+}
+.demo-ad-01 .demo-ad-inner {
+}
+
+.demo-ad-01 .ad-01_ttl {
+  margin: 0 0 15px;
+  text-align: center;
+}
+
+.demo-ad-02 {
+  margin: 30px 0 0;
+}
+.demo-ad-02 .ad-02_ttl {
+  margin: 0 0 15px;
+  text-align: center;
+}
+
+.ad-02_list {
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.ad-02_list li {
+  margin: 0 10px;
+}
+
+.code-wrap {
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.code-ttl {
+  margin: 45px 0 20px;
+  background: #2f2e2e;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.code-block {
+  margin: 0 0 20px;
+}
+
+.ttl-commentary {
+  max-width: 768px;
+  width: 100%;
+  margin: 30px auto 15px;
+  font-weight: bold;
+}
+
+.list-commentary {
+  max-width: 768px;
+  width: 100%;
+  line-height: 1.5;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.link-lang {
+  margin: 20px auto 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+.link-lang a {
+  text-decoration: underline;
+}
+
+.link-lang a:hover {
+  text-decoration: none;
+}
+
+.link-ad {
+  margin: 20px auto 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+.link-ad a {
+  text-decoration: underline;
+}
+
+.link-ad a:hover {
+  text-decoration: none;
+}
+
+.link-ad img {
+  width: 1px;
+}
+
+.bnr_olympic {
+  max-width: 500px;
+  width: 100%;
+  line-height: 0;
+  margin: 0 auto 25px;
+}
+
+.demo-ad--text {
+  margin: 50px 0 0;
+  text-align: center;
+  font-size: 18px;
+}
+.demo-ad--text a {
+  text-decoration: underline;
+}
+.demo-ad--text img {
+  width: 1px;
+  height: 1px;
+}
+
+.demo-ad-03 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 0;
+}
+
+.demo-ad-03 img {
+  width: auto;
+  height: 100%;
+}
+
+.demo-ad-04 {
+  margin: 40px 0 0;
+  text-align: center;
+}
+
+.demo-ad-04 a {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.demo-ad-04 a:hover {
+  text-decoration: none;
+}
+
+.demo-ad-04 a img {
+  width: 1px;
+}
+
+@media screen and (max-width: 640px) {
+  .link-back {
+    font-size: 3.73vw;
+  }
+  .ttl-notice,
+  .ttl-demo {
+    max-width: 95%;
+    margin: 25px auto 20px;
+  }
+  .link-lang {
+    font-size: 3.73vw;
+  }
+  .link-ad {
+    font-size: 3.2vw;
+  }
+  .demo-ad-01 {
+    margin: 0 0 30px;
+  }
+ .ad-02_list {
+    display: block;
+  }
+ .ad-02_list li {
+    max-width: 336px;
+    width: 100%;
+    margin: 0 auto;
+  }
+ .ad-02_list li:first-child {
+    margin: 0 auto 20px;
+  }
+  .code-wrap {
+    max-width: 95%;
+  }
+  .code-ttl {
+   font-size: 4.26vw;
+  }
+  .ttl-commentary {
+    max-width: 95%;
+  }
+
+  .list-commentary {
+    max-width: 95%;
+  }
+
+  .bnr_olympic {
+    max-width: 90%;
+  }
+
+  .demo-ad-03 {
+    display: block;
+  }
+
+  .demo-ad-03 a img {
+    width: 100%;
+    height: auto;
+  }
+  .demo-ad-04 a {
+    font-size: 4vw;
+  }
+}
